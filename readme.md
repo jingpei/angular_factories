@@ -4,3 +4,6 @@
 
 * firebase auth - https://www.firebase.com/docs/web/libraries/angular/quickstart.html
 * firebase auth with password - https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithpasswordcredentials-options
+
+And...
+* http://andyshora.com/promises-angularjs-explained-as-cartoon.html
