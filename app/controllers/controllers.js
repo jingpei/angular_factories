@@ -1,6 +1,6 @@
 graphApp.controller("graphControllers", function($scope, $firebaseArray){
 
-  var ref = new Firebase("https://dddataviz.firebaseio.com/data");
+  var ref = new Firebase("https://jp-dataviz.firebaseio.com/data");
 
   $scope.graphData = $firebaseArray(ref);
 
@@ -14,17 +14,7 @@ graphApp.controller("graphControllers", function($scope, $firebaseArray){
 
 });
 
-graphApp.controller("registration", function($scope){
 
-  $scope.login = function(){
-    alert($scope.user.email);
-  }
-
-  $scope.$on("$viewContentLoaded", function(){
-   console.log($scope.myform);
- });
-
-});    
 
 
 
