@@ -1,6 +1,9 @@
-var graphApp = angular.module("graphApp",["ngRoute","appControllers","firebase"]);
+var graphApp = angular.module("graphApp",["ngRoute","appControllers","firebase"])
+.constant('FIREBASE_URL', 'https://jp-dataviz.firebaseio.com/data');
 
 var appControllers = angular.module("appControllers", []);
+
+//constants created in app.js
 
 graphApp.config(["$routeProvider", function($routeProvider) {
 
